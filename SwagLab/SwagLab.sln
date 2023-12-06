@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33801.468
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwagLab_Tests", "SwagLab_Tests\SwagLab_Tests.csproj", "{EBE2370C-4F18-4D80-BF58-C4F8E2AC9913}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SwagLab_Tests", "SwagLab_Tests\SwagLab_Tests.csproj", "{EBE2370C-4F18-4D80-BF58-C4F8E2AC9913}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swag_Lab_BDD_Test", "Swag_Lab_BDD_Test\Swag_Lab_BDD_Test.csproj", "{4D32AFB5-510C-49C5-BBA9-03BC0534FB3B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{EBE2370C-4F18-4D80-BF58-C4F8E2AC9913}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EBE2370C-4F18-4D80-BF58-C4F8E2AC9913}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EBE2370C-4F18-4D80-BF58-C4F8E2AC9913}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D32AFB5-510C-49C5-BBA9-03BC0534FB3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D32AFB5-510C-49C5-BBA9-03BC0534FB3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D32AFB5-510C-49C5-BBA9-03BC0534FB3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D32AFB5-510C-49C5-BBA9-03BC0534FB3B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

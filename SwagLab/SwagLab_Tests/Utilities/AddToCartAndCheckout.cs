@@ -17,4 +17,5 @@ namespace SwagLab_Tests.Utilities
         public string? LastName { get; set;}
         public string? ZipCode { get; set; }
     }
+    
 }

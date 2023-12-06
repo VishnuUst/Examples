@@ -9,6 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Serilog;
+using OpenQA.Selenium.Support.UI;
 
 namespace SwagLab_Tests.Utilities
 {
@@ -65,3 +66,17 @@ namespace SwagLab_Tests.Utilities
 
     }
 }
+/*FluentWait
+DefaultWait<IWebDriver> fluentwait = new DefaultWait<IWebDriver>(driver);
+fluentwait.Timeout = TimeSpan.FromSeconds(20);
+fluentwait.PollingInterval = TimeSpan.FromMilliseconds(100);
+fluentwait.IgnoreExceptionTypes(typeof(NoSuchElementException));
+fluentwait.Message = "Element not found!!!";*/
+
+/*testscriptcoddeforexcel
+  string? currDirs = Directory.GetParent(@"../../../")?.FullName;
+
+    string? excelFilePath = currDirs + "/TestData/InputData.xlsx";
+
+     string? sheetName = "AddToCartCheckoutDetails";
+   List<AddToCartAndCheckout> excelDataList = ExcelUtils.ReadExcelData(excelFilePath, sheetName);*/
